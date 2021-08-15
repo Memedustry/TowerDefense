@@ -1,0 +1,62 @@
+name: Plasmid
+description: Charges up a ball of unstoppable plasma. Pierces any enemy
+type: PowerTurret
+category: turret
+
+xRand: 0
+reloadTime: 135
+range: 240
+size: 3
+recoilAmount: 3
+rotateSpeed: 5
+inaccuracy: 2
+shootCone: 20
+shootSound: railgun
+health: 1200
+powerUse: 4
+shots: 1
+chargeTime: 100
+chargeSound: lasercharge
+chargeEffect: lancerLaserCharge
+
+shootType: {
+  type: BasicBulletType
+  region: circle-small
+  damage: 15
+  speed: 1
+  drag: 0
+  width: 24
+  height: 24
+  frontColor: c7efff
+  backColor: 7ad9ff
+  lifetime: 300
+  collidesGround: true
+  collidesAir: false
+  status: slow
+  statusDuration: 200
+  pierce: true
+  trailEffect: {
+        type: ParticleEffect
+        lifetime: 120
+        length: 8
+        particles: 8
+        sizeFrom: 8
+        colorFrom: c7efff
+        colorTo: 7ad9ff
+      }
+  trailSpacing: 20
+  shootEffect: lancerLaserShoot
+  despawnEffect: {
+        type: ParticleEffect
+        lifetime: 100
+        length: 14
+        particles: 14
+        sizeFrom: 4
+        colorFrom: c7efff
+        colorTo: 7ad9ff
+      }
+}
+
+requirements: [
+    coin/3000
+]

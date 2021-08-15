@@ -1,0 +1,36 @@
+name: Shrapnel
+description: Fires a massive barrage of bullets. Able to mow down hordes of weaker enemies.
+type: PowerTurret
+category: turret
+
+xRand: 2
+reloadTime: 45
+range: 160
+size: 5
+recoilAmount: 3
+rotateSpeed: 7
+inaccuracy: 15
+shootCone: 20
+shootSound: shootBig
+health: 1600
+powerUse: 4
+shots: 20
+velocityInaccuracy: 0.7
+burstSpacing: 1
+
+shootType: {
+  type: missileExplosive
+  damage: 22
+  speed: 5
+  width: 10
+  height: 12
+  splashDamage: 70
+  splashDamageRadius: 46
+  shootEffect: shootBig
+  collidesGround: true
+  explodeRange: 30
+}
+
+requirements: [
+    coin/16000
+]
