@@ -1,0 +1,29 @@
+name: Fuse
+type: PowerTurret
+category: turret
+
+reloadTime: 35
+shootShake: 4
+range: 90
+recoilAmount: 5
+shots: 3
+spread: 20
+restitution: 0.1
+shootCone: 30
+size: 3
+health: 1980
+shootSound: shotgun
+powerUse: 1.2
+
+shootType: {
+  type: ShrapnelBulletType
+  length: 100
+  damage: 105
+  toColor: f9a3c7
+  shootEffect: thoriumShoot
+  smokeEffect: thoriumShoot
+}
+
+requirements: [
+    coin/175
+]

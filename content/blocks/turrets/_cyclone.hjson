@@ -1,0 +1,34 @@
+name: Cyclone
+type: PowerTurret
+category: turret
+
+xRand: 4
+reloadTime: 8
+range: 200
+size: 3
+recoilAmount: 3
+rotateSpeed: 10
+inaccuracy: 10
+shootCone: 30
+shootSound: shootSnap
+health: 1305
+powerUse: 2.25
+
+shootType: {
+  type: fragSurge
+  damage: 13
+  speed: 4.5
+  width: 11
+  height: 11
+  splashDamage: 75
+  splashDamageRadius: 38
+  lightning: 2
+  lightningLength: 7
+  shootEffect: shootBig
+  collidesGround: true
+  explodeRange: 20
+}
+
+requirements: [
+    coin/250
+]

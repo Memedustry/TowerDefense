@@ -1,0 +1,11 @@
+type: LiquidSource
+size: 1
+health: 180
+category: liquid
+name: Liquid Modifier
+description: Can configure liquid turrets with different fluids, each has their own properties.
+alwaysunlocked: true
+
+requirements: [
+    coin/5
+]

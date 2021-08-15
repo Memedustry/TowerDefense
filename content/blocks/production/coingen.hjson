@@ -1,0 +1,18 @@
+type: Cultivator
+name: Coin Generator
+description: Generates coins using power. Protect it well!
+health: 60
+itemCapacity: 12
+size: 3
+hasLiquids: false
+hasItems: true
+craftTime: 120
+updateEffect: pulverize
+consumes: {
+   power: 0.5
+}
+requirements: [
+  coin/80
+]
+category: effect
+outputItem: coin/1

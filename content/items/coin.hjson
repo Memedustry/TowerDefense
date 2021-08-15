@@ -1,0 +1,8 @@
+type: Item
+name: Coin
+description: Used to buy towers, power generators, and more coin mines.
+explosiveness: 0
+flammability: 0
+charge: 0
+radioactivity: 0
+color: F0F000

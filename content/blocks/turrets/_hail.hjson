@@ -1,0 +1,36 @@
+name: Hail
+type: PowerTurret
+category: turret
+
+targetAir: false
+reloadTime: 60
+recoilAmount: 2
+range: 230
+inaccuracy: 1
+shootCone: 10
+health: 260
+shootSound: bang
+powerUse: 0.12
+
+shootType: {
+  type: artilleryIncendiary
+  speed: 3
+  damage: 0
+  hitEffect: blastExplosion
+  knockback: 0.8
+  lifetime: 80
+  width: 15
+  height: 15
+  collidesTiles: false
+  splashDamageRadius: 18.75
+  splashDamage: 35
+  status: burning
+  frontColor: f8ad42
+  backColor: f68021
+  makeFire: true
+  trail: incendTrail
+}
+
+requirements: [
+    coin/70
+]

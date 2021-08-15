@@ -1,0 +1,34 @@
+name: Salvo
+type: PowerTurret
+category: turret
+
+size: 2
+range: 150
+reloadTime: 32
+restitution: 0.03
+ammoEjectBack: 3
+cooldown: 0.03
+recoilAmount: 3
+shootShake: 1
+burstSpacing: 3
+shots: 4
+ammoUseEffect: casing2
+health: 960
+shootSound: shootBig
+powerUse: 0.65
+
+shootType: {
+  type: standardThorium
+  damage: 29
+  speed: 4
+  width: 10
+  height: 13
+  shootEffect: shootBig
+  smokeEffect: shootBigSmoke
+  ammoMultiplier: 4
+  lifetime: 60
+}
+
+requirements: [
+    coin/100
+]

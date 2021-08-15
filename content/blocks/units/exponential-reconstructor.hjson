@@ -1,0 +1,12 @@
+consumes: {
+    power: 2
+    liquid: cryofluid/-0.01
+    items: {
+      items: [
+        coin/70
+      ]
+    }
+}
+requirements: [
+  coin/140
+]

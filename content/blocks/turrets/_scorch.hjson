@@ -1,0 +1,34 @@
+name: Scorch
+type: PowerTurret
+category: turret
+
+recoilAmount: 0
+reloadTime: 6
+coolantMultiplier: 1.5
+range: 60
+shootCone: 50
+targetAir: false
+ammoUseEffect: none
+health: 400
+shootSound: flame
+powerUse: 0.2
+
+shootType: {
+  type: basicFlame
+  damage: 18
+  hitSize: 7
+  lifetime: 18
+  pierce: true
+  collidesAir: false
+  status: burning
+  statusDuration: 180
+  shootEffect: shootSmallFlame
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  keepVelocity: false
+  hittable: false
+}
+
+requirements: [
+    coin/55
+]

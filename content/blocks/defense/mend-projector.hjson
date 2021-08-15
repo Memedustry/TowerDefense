@@ -1,0 +1,7 @@
+requirements: [
+    coin/15
+]
+consumes: [
+    coin/1
+]
+powerConsumption: 0.025

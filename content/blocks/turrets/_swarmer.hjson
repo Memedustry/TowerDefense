@@ -1,0 +1,37 @@
+name: Swarmer
+type: PowerTurret
+category: turret
+
+reloadTime: 30
+shots: 4
+burstSpacing: 5
+inaccuracy: 10
+range: 200
+xRand: 6
+size: 2
+health: 1200
+shootSound: missile
+powerUse: 0.75
+
+shootType: {
+  type: missileSurge
+  damage: 18
+  speed: 3.7
+  sprite: missile
+  width: 8
+  height: 8
+  shrinkY: 0
+  drag: -0.01
+  splashDamageRadius: 25
+  splashDamage: 37.5
+  hitEffect: blastExplosion
+  despawnEffect: blastExplosion
+  backColor: f68021
+  lightningDamage: 10
+  lightning: 2
+  lightningLength: 10
+}
+
+requirements: [
+    coin/120
+]

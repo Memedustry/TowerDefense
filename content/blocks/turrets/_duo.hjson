@@ -1,0 +1,32 @@
+name: Duo
+type: PowerTurret
+category: turret
+
+health: 250
+spread: 4
+shots: 2
+alternate: true
+reloadTime: 20
+restitution: 0.03
+range: 100
+shootCone: 15
+ammoUseEect: x.casing1
+health: 250
+inaccuracy: 2
+rotateSpeed: 10
+powerUse: 0.1
+
+shootType: {
+  type: standardCopper
+  damage: 12
+  speed: 2.5
+  width: 7
+  height: 9
+  lifetime: 45
+  shootEffect: shootSmall
+  smokeEffect: shootSmallSmoke
+}
+
+requirements: [
+    coin/40
+]

@@ -1,0 +1,4 @@
+requirements: [
+    coin/5
+]
+powerConsumption: 0.05

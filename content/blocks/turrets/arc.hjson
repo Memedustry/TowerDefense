@@ -1,0 +1,5 @@
+requirements: [
+    coin/45
+]
+
+powerUse: 0.75

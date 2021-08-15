@@ -1,0 +1,37 @@
+name: Foreshadow
+type: PowerTurret
+category: turret
+
+health: 2400
+range: 500
+ammoPerShot: 4
+rotateSpeed: 2
+reloadTime: 200
+ammoUseEffect: casing3Double
+recoilAmount: 5
+restitution: 0.009
+cooldown: 0.009
+shootShake: 4
+shots: 1
+size: 4
+shootCone: 2
+shootSound: railgun
+powerUse: 3
+
+shootType: {
+  type: pointBulletType
+  shootEffect: instShoot
+  hitEffect: instHit
+  smokeEffect: smokeCloud
+  trailEffect: instTrail
+  despawnEffect: instBomb
+  trailSpacing: 20
+  damage: 1350
+  buildingDamageMultiplier: 0.3
+  speed: 500
+  hitShake: 6
+}
+
+requirements: [
+    coin/500
+]

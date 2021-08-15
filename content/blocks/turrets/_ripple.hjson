@@ -1,0 +1,44 @@
+name: Ripple
+type: PowerTurret
+category: turret
+
+targetAir: false
+size: 3
+shots: 4
+inaccuracy: 12
+reloadTime: 60
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+ammoPerShot: 2
+cooldown: 0.03
+velocityInaccuracy: 0.2
+restitution: 0.02
+recoilAmount: 6
+shootShake: 2
+range: 290
+minRange: 50
+health: 1170
+shootSound: artillery
+powerUse: 1.12
+
+shootType: {
+  type: atrilleryPlastic
+  speed: 3.4
+  damage: 10
+  hitEffect: plasticExplosion
+  knockback: 1
+  lifetime: 80
+  width: 13
+  height: 13
+  collidesTiles: false
+  splashDamageRadius: 26.25
+  splashDamage: 45
+  fragBullet: artilleryPlasticFrag
+  fragBullets: 10
+  backColor: d8d97f
+  frontColor: fffac6
+}
+
+requirements: [
+    coin/195
+]

@@ -1,0 +1,22 @@
+plans: [
+  {
+    unit: risso
+    requirements: [
+      coin/10
+    ] 
+    time: 360
+  }
+  {
+    unit: retusa
+    requirements: [
+      coin/12
+    ] 
+    time: 360
+  }
+]
+consumes: {
+  power: 0.25
+}
+requirements: [
+  coin/20
+]

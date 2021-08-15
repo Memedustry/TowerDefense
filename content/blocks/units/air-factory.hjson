@@ -1,0 +1,15 @@
+plans: [
+  {
+    unit: flare
+    requirements: [
+      coin/10
+    ] 
+    time: 360
+  }
+]
+consumes: {
+  power: 0.25
+}
+requirements: [
+  coin/20
+]

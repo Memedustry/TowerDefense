@@ -1,0 +1,11 @@
+consumes: {
+    power: 1
+    items: {
+      items: [
+        coin/45
+      ]
+    }
+}
+requirements: [
+  coin/90
+]

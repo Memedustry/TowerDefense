@@ -1,0 +1,7 @@
+name: "MindustryTD"
+displayName: "TowerDefense"
+description: Turns Mindustry into a multi-player tower denfense game!
+author: "Memedustry, @KingOfMemes#2183"
+repo: Memedustry/TowerDefense
+minGameVersion: 126
+version: "1.0"

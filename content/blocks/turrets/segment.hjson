@@ -1,0 +1,6 @@
+requirements: [
+    coin/70
+]
+consumes: {
+    power: 1
+}

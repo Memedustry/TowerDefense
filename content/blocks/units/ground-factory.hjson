@@ -1,0 +1,29 @@
+plans: [
+  {
+    unit: dagger
+    requirements: [
+      coin/10
+    ] 
+    time: 450
+  }
+  {
+    unit: crawler
+    requirements: [
+      coin/6
+    ] 
+    time: 360
+  }
+  {
+    unit: nova
+    requirements: [
+      coin/15
+    ] 
+    time: 1200
+  }
+]
+consumes: {
+  power: 0.25
+}
+requirements: [
+  coin/20
+]

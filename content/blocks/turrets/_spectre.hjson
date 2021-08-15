@@ -1,0 +1,36 @@
+name: Spectre
+type: PowerTurret
+category: turret
+
+reloadTime: 6
+coolantMultiplier: 0.5
+restitution: 0.1
+ammoUseEffect: casing3
+range: 200
+inaccuracy: 3
+recoilAmount: 3
+spread: 8
+alternate: true
+shootShake: 2
+shots: 2
+size: 4
+shootCone: 24
+shootSound: Sounds.shootBig
+health: 2560
+powerUse: 1.5
+
+shootType: {
+  type: standardThoriumBig
+  damage: 80
+  knockback: 0.7
+  speed: 8
+  width: 16
+  height: 22
+  shootEffect: shootBig
+  smokeEffect: shootBigSmoke
+  lifetime: 60
+}
+
+requirements: [
+    coin/360
+]

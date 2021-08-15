@@ -1,0 +1,34 @@
+name: Scatter
+type: PowerTurret
+category: turret
+
+reloadTime: 18
+range: 160
+size: 2
+burstSpacing: 5
+shots: 2
+targetGround: false
+recoilAmount: 2
+rotateSpeed: 15
+inaccuracy: 17
+shootCone: 35
+health: 800
+shootSound: shootSnap
+powerUse: 0.15
+
+shootType: {
+  type: flakLead
+  lifetime: 60
+  speed: 4.2
+  damage: 3
+  shootEffect: shootSmall
+  width: 8
+  height: 10
+  hitEffect: flakExplosion
+  splashDamage: 27
+  splashDamageRadius: 15
+}
+
+requirements: [
+    coin/85
+]
