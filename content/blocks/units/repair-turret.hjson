@@ -1,3 +1,4 @@
+buildVisibility: hidden
 requirements: [
   coin/50
 ]
