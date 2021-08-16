@@ -1,0 +1,8 @@
+type: PowerSource
+name: Differential Generator
+requirements: [
+    coin/160
+]
+powerProduction: 2
+size: 3
+category: power

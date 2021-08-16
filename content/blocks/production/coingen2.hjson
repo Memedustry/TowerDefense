@@ -1,18 +1,18 @@
 type: Cultivator
-name: Coin Generator Lv1
-description: Generates coins using power. Protect it well!
+name: Coin Generator Lv2
+description: Generates more coins using power. Protect it well!
 health: 60
 itemCapacity: 12
 size: 3
 hasLiquids: false
 hasItems: true
-craftTime: 240
+craftTime: 120
 updateEffect: pulverize
 consumes: {
-   power: 0.5
+   power: 1
 }
 requirements: [
-  coin/100
+  coin/200
 ]
 category: production
 outputItem: coin/1

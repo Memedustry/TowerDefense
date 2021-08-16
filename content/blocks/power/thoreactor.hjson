@@ -1,0 +1,8 @@
+type: PowerSource
+name: Thorium Reactor
+requirements: [
+    coin/400
+]
+powerProduction: 5
+size: 3
+category: power
